@@ -1,8 +1,11 @@
-https://www.youtube.com/watch?v=os-NaA0ldGs&list=PLBv09BD7ez_6CxkuiFTbL3jsn2Qd1IU7B
+#requirement: https://web.njit.edu/~usman/courses/cs675_summer19/assignment1.txt
+#https://www.youtube.com/watch?v=os-NaA0ldGs&list=PLBv09BD7ez_6CxkuiFTbL3jsn2Qd1IU7B
 
 import sys
 
-# def readData():
+########
+# READ Data
+#######
 datafile = sys.argv[1]
 f = open('breast_cancer.data')  
 data = []
